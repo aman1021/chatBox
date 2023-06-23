@@ -1,0 +1,28 @@
+.allBoxes{
+    display: flex;
+}
+.chatButton{
+    /* display: flex; */
+    height: 40px;
+    width: auto;
+    font-size: 18px;
+    position: fixed;
+    bottom: 25px;
+    align-items: center;
+    right: 100px;
+    color: white;
+    background-color: rgb(74, 74, 246);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chatButton:hover{
+    background-color: blue;
+}
+
+.footer-box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
